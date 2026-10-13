@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="UpgradeDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/upgrade_def.gd" id="1_up"]
+
+[resource]
+script = ExtResource("1_up")
+id = "fuel_tank"
+display_name = "Long-range tank"
+description = "Bigger fuel tank: fewer stops at the filling station."
+stat = 3
+per_level = 10.0
+prices = PackedInt32Array(300, 700)

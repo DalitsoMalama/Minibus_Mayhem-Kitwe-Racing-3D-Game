@@ -1,0 +1,12 @@
+# Godot
+.godot/
+*.translation
+export_presets.cfg
+/android/
+/build/
+
+# Raw Overpass downloads (re-fetch with tools/osm_import.py --refresh)
+tools/osm_cache/
+
+# Python
+__pycache__/

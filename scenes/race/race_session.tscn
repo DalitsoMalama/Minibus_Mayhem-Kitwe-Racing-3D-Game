@@ -1,0 +1,14 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/race_session.gd" id="1_session"]
+[ext_resource type="Resource" path="res://data/routes/kitwe_town_loop.tres" id="2_route"]
+[ext_resource type="Resource" path="res://data/vehicles/hiace_player.tres" id="3_player"]
+[ext_resource type="Script" path="res://scripts/data/rival_def.gd" id="4_rivaldef"]
+[ext_resource type="Resource" path="res://data/rivals/ba_mulenga.tres" id="5_mulenga"]
+[ext_resource type="Resource" path="res://data/rivals/ba_chanda.tres" id="6_chanda"]
+
+[node name="RaceSession" type="Node3D"]
+script = ExtResource("1_session")
+route = ExtResource("2_route")
+player_vehicle = ExtResource("3_player")
+rivals = Array[ExtResource("4_rivaldef")]([ExtResource("5_mulenga"), ExtResource("6_chanda")])

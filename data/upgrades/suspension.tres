@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="UpgradeDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/upgrade_def.gd" id="1_up"]
+
+[resource]
+script = ExtResource("1_up")
+id = "suspension"
+display_name = "Heavy-duty springs"
+description = "Stiffer suspension: less body roll in corners with a full load."
+stat = 5
+per_level = 0.2
+prices = PackedInt32Array(300, 700)

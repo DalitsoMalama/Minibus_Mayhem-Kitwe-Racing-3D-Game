@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="RouteDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/route_def.gd" id="1_route"]
+
+[resource]
+script = ExtResource("1_route")
+route_name = "Town - Chimwemwe Loop"
+path_points = PackedVector3Array(-200, 0, -120, 200, 0, -120, 200, 0, 120, -200, 0, 120)
+road_width = 12.0
+stop_names = PackedStringArray("Town Centre", "Chisokone Market", "Nkana East", "Parklands", "Chimwemwe", "Buchi")
+stop_offsets = PackedFloat32Array(80, 270, 520, 760, 940, 1160)
+fare_kwacha = 10
+time_limit_sec = 240.0

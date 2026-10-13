@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="RivalDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/rival_def.gd" id="1_rival"]
+[ext_resource type="Resource" path="res://data/vehicles/hiace_rival.tres" id="2_bus"]
+
+[resource]
+script = ExtResource("1_rival")
+driver_name = "Ba Mulenga"
+vehicle = ExtResource("2_bus")
+cruise_speed = 15.0
+corner_speed = 6.0
+start_offset = 15.0

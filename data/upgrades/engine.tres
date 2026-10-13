@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="UpgradeDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/upgrade_def.gd" id="1_up"]
+
+[resource]
+script = ExtResource("1_up")
+id = "engine"
+display_name = "Engine rebuild"
+description = "More power from the 2KD diesel. Climbs and overtakes faster, even fully loaded."
+stat = 0
+per_level = 0.12
+prices = PackedInt32Array(400, 900, 1800)

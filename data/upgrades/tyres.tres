@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="UpgradeDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/upgrade_def.gd" id="1_up"]
+
+[resource]
+script = ExtResource("1_up")
+id = "tyres"
+display_name = "New tyres"
+description = "Fresh rubber instead of retreads. More grip, especially in the rain."
+stat = 1
+per_level = 0.35
+prices = PackedInt32Array(250, 600, 1200)

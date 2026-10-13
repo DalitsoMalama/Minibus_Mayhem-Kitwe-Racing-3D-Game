@@ -1,0 +1,37 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="Minibus Mayhem: Kitwe"
+config/description="Race rival minibuses around Kitwe, pick up passengers, earn kwacha."
+run/main_scene="res://scenes/shell/main_menu.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+
+[autoload]
+
+InputSetup="*res://autoload/input_setup.gd"
+EventBus="*res://autoload/event_bus.gd"
+GameState="*res://autoload/game_state.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

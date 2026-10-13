@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="VehicleDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/vehicle_def.gd" id="1_vdef"]
+
+[resource]
+script = ExtResource("1_vdef")
+display_name = "HiAce (Rival, yellow)"
+body_color = Color(0.95, 0.75, 0.12, 1)
+seats = 15
+max_engine_force = 6200.0
+wheel_grip = 2.3

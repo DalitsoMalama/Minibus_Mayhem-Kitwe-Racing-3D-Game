@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="WeatherDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weather_def.gd" id="1_w"]
+
+[resource]
+script = ExtResource("1_w")
+display_name = "Dry season"
+description = "Dusty roads, blue skies, jacarandas in bloom. Good grip."
+rain = false
+grip_mult = 1.0
+passenger_rate_mult = 1.0
+sky_top = Color(0.25, 0.5, 0.85, 1)
+sky_horizon = Color(0.78, 0.82, 0.88, 1)
+fog_color = Color(0.8, 0.7, 0.6, 1)
+fog_density = 0.002
+sun_energy = 1.0
+road_roughness = 0.9
+puddles = 0
